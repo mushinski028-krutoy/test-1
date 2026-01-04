@@ -108,7 +108,6 @@ def test_singleton():
     print(f"logger1 is logger2: {logger1 is logger2}")
     
 
-t, [05.01.2026 1:14]
 logger1.set_log_level("INFO")
     logger1.log("Приложение запущено", "INFO")
     logger2.log("Отладочная информация", "DEBUG")  # Не выведется
